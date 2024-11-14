@@ -1,0 +1,72 @@
+body{
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background:-webkit-linear-gradient( 45deg, rgb(0, 0, 0), rgb(59, 59, 59)) no-repeat; 
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 5px;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+.para{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.stopwatch-case{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0px 0px 10px 0px black;
+}
+
+.buttons-container{
+    margin: 15px 0;
+    display: flex;
+}
+
+.start, .stop, .reset{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 10px 0px black; 
+}
+
+@media screen and (max-width: 450px){
+    .heading{
+        font-size: 40px;
+    }
+
+    .stopwatch-case{
+        font-size: 40px;
+        
+    }
+}
