@@ -58,15 +58,20 @@ body{
     border: 0px;
     cursor: pointer;
     box-shadow: inset 0px 0px 10px 0px black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media screen and (max-width: 450px){
     .heading{
         font-size: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
     }
 
     .stopwatch-case{
-        font-size: 40px;
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 700;
         
     }
 }
